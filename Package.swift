@@ -15,9 +15,9 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/huggingface/swift-transformers", .upToNextMajor(from: "1.0.0")),
-        .package(url: "https://github.com/ml-explore/mlx-swift.git", .upToNextMajor(from: "0.25.6")),
-        .package(url: "https://github.com/ml-explore/mlx-swift-examples.git", .upToNextMajor(from: "2.25.8")),
+        .package(url: "https://github.com/huggingface/swift-transformers", .upToNextMajor(from: "1.1.2")),
+        .package(url: "https://github.com/ml-explore/mlx-swift.git", .upToNextMajor(from: "0.29.1")),
+        .package(url: "https://github.com/ml-explore/mlx-swift-examples.git", .upToNextMajor(from: "2.29.1")),
     ],
     targets: [
         .target(name: "MarvisTTS",
